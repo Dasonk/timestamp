@@ -1,6 +1,17 @@
 # timestamp
 
-The timestamp package is an R package that allows you to add a timestamp to your prompt that updates with each top level callback.
+The timestamp package is an R package that allows you to add a timestamp to your prompt that updates with each top level callback.  Here is an example of what the package can do for you
+
+```r
+> rnorm(1)
+[1] -0.1321653
+> # I want a time stamp!
+> library(timestamp)
+23:19:55 > rnorm(1)
+[1] 1.656763
+23:20:01 > # Yay! Now I have a time stamp!
+```
+
 
 ## Installation
 
