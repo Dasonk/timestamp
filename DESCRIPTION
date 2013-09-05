@@ -1,0 +1,17 @@
+Package: timestamp
+Type: Package
+Title: Adds a timestamp to the prompt
+Version: 1.0.0
+Date: 2013-09-04
+Author: Dason Kurkiewicz
+Maintainer: Dason Kurkiewicz <dasonk@iastate.edu>
+Description: Adds a timestamp to the prompt.  It will update anytime a top
+    level call occurs. The timestamp will automatically be added when the
+    package is loaded but can be removed and readded again at the user's
+    convenience.
+License: GPL-2
+URL: https://github.com/dasonk/timestamp
+Collate:
+    'timestamp.R'
+    'zzz.R'
+    'timestamp-package.R'

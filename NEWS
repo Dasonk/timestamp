@@ -1,0 +1,8 @@
+NEWS
+====
+
+CHANGES IN timestamp VERSION 1.0.0
+-------------------------------------
+
+* Initial Release with basic funcionality that updates the prompt
+  anytime there is a top level callback to reflect the current time.
