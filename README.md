@@ -4,12 +4,31 @@ The timestamp package is an R package that allows you to add a timestamp to your
 
 ```r
 > rnorm(1)
-[1] -0.1321653
+[1] 1.593738
 > # I want a time stamp!
 > library(timestamp)
-23:19:55 > rnorm(1)
-[1] 1.656763
-23:20:01 > # Yay! Now I have a time stamp!
+23:23:11 > rnorm(1)
+[1] 0.772474
+23:23:13 > print("Yay - I have a time stamp!")
+[1] "Yay - I have a time stamp!"
+23:23:20 > rnorm(1)
+[1] 0.9360234
+23:23:26 > print("Now I don't want it anymore...")
+[1] "Now I don't want it anymore..."
+23:23:33 > removeTimeStamp()
+> # Back to normal
+> # This is boring - let's add it back
+> addTimeStamp()
+23:23:55 > print("So much better")
+[1] "So much better"
+23:24:00 > removeTimeStamp()
+> options(prompt = "Raptors Suck > ")
+Raptors Suck > addTimeStamp()
+23:24:42 Raptors Suck > print("It respects your current prompt")
+[1] "It respects your current prompt"
+23:24:50 Raptors Suck > removeTimeStamp()
+Raptors Suck > 
+
 ```
 
 
