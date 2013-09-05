@@ -15,7 +15,8 @@ addTimeStamp <- function(){
     options(oldPrompt = getOption("prompt"))
     
     updatePrompt <- function(...){
-        options(prompt=paste(Sys.time(), getOption("oldPrompt")))
+        p <- paste(format(Sys.time(), "%H:%M:%S"), getOption("oldPrompt"))
+        options(prompt = p)
         return(TRUE)
     }
     
