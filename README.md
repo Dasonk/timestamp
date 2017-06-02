@@ -1,5 +1,7 @@
 # timestamp
 
+Note: timestamp hasn't been updated in a while (not that it particularly needs to be).  If you're looking for something that is currently being updated and has more features you might consider the ['prompt'](https://github.com/ThinkRstat/prompt) package which provides more options to add to your prompt (time stamps being one of those options).
+
 The timestamp package is an R package that allows you to add a timestamp to your prompt that updates with each top level callback.  Here is an example of what the package can do for you
 
 ```r
